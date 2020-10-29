@@ -51,6 +51,7 @@ table {
 * {
     border: 1px solid black;
     max-width: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -95,6 +96,7 @@ html {
 .imgone {
     padding: 1%;
     width: 50%;
+
 }   
 
 .mainintro {
