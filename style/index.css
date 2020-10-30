@@ -1,1 +1,174 @@
-/* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+* {
+    border: 1px solid black;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    max-width: 100%;
+    font-size:1.8rem;
+    line-height: 1.5;
+    font-family: 'futura', sans-serif;
+    background-color: silver;
+}
+
+html {
+    font-size: 62.5%;
+    
+}
+
+.myname {
+    width: 100%;
+    font-size: 4.5rem;
+    font-family: 'futura';
+    padding: 2.5%;
+    display: flex;
+}
+
+.menubar {
+    width:50%;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid gray;
+}
+
+.background {
+    background-color: gray;
+    padding-bottom: 1%;
+}
+.menubar a {
+    display: flex;
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+}
+
+.imgone {
+    padding: 1%;
+    width: 50%;
+
+}   
+
+.mainintro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+    line-height: 6rem;
+}
+
+.main {
+    max-width: 100%;
+    display: flex;
+}
+
+.myprojects {
+    text-decoration: none;
+    border: 3px solid gray;
+    width: 20%;
+    color: dimgray;
+}
+
+.imgcolone {
+    max-width: 100%;
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.one {
+    width: 20%;
+}
+
+
+.imgcoltwo {
+    max-width: 100%;
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+
+
+.foot{
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: space-between;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    margin: 2%;
+}
+
+.foot h2 {
+    padding: 2%;
+}
+
+.cont {
+    border: 2px solid black;
+    text-decoration: none;
+    background-color: white;
+    color: gray;
+    padding-top: 2%;
+}
+
+.socialmedia {
+    padding-top: 10%;
+}
